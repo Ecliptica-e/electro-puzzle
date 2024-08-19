@@ -723,7 +723,7 @@ html, body {
 
 .header {
   padding: 20px 0 126px;
-  background-image: url(./../../img/hero.jpg);
+  background-image: url(./../img/hero.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
