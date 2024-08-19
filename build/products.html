@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ElectroPuzzle</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="products-header">
+			<div class="products__header-wrapper">
+				<div class="container">
+					<div class="products-header__row">
+						<div class="products-header__logo">
+							<svg class="icon icon--logo">
+								<use href="./img/svgsprite/sprite.symbol.svg#logo"></use>
+							</svg>
+
+							<p>ElectroPuzzle</p>
+						</div>
+						<nav class="products-header__nav nav">
+							<ul class="nav__list">
+								<li class="nav__item"><a href="index.html" class="active">Главная</a></li>
+								<li class="nav__item"><a href="products.html">Педали</a></li>
+								<li class="nav__item"><a href="#!">Контакты</a></li>
+							</ul>
+							<div class="products-header__basket">
+								<a href="#!">
+									<svg class="icon icon--basket">
+										<use href="./img/svgsprite/sprite.symbol.svg#basket"></use>
+									</svg>
+								</a>
+							</div>
+						</nav>
+
+						<div class="header__nav-btn">
+							<button class="mobile-nav-btn">
+								<div class="nav-icon"></div>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="products">
+					<h2 class="products__title">Педали</h2>
+					<p class="products__text">
+						Адаптация классической схемы Dallas-Arbiter Fuzz Face, выпущенной в&#160;1966 году. Fuzz Face была скопирована непосредственно с&#160;Tone Bender Mk. 1.5
+					</p>
+				</div>
+			</div>
+		</header>
+		<div class="mobile-nav">
+			<ul class="mobile-nav__list">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="#!">Педали</a></li>
+				<li><a href="#!">Контакты</a></li>
+				<li><a href="#!">Корзина</a></li>
+			</ul>
+		</div>
+
+		<main>
+			<section class="catalog">
+				<div class="catalog__container container">
+					<div class="catalog__btn">
+						Фильтр
+					</div>
+
+					<div class="catalog__columns">
+						<div class="catalog__filter">
+							<div class="filter__title">Фильтр</div>
+
+							<div class="filter__wrap">
+								<div class="filter__categories">
+									<button class="filter__categories-btn">
+										<span class="filter__categories-title">Категории</span>
+									</button>
+
+									<ul class="categories__list list-01">
+										<li class="categories__item active categories__item-title" data-id="all">Все<span class="categories__item-count all-item"></span></li>
+										<li class="categories__item active categories__item-title" data-id="overdrive">
+											Овердрайвы<span class="categories__item-count overdrive-item">1</span>
+										</li>
+										<li class="categories__item active categories__item-title" data-id="distorshen">
+											Дисторшены<span class="categories__item-count distorshen-item">1</span>
+										</li>
+										<li class="categories__item active categories__item-title" data-id="fuze">Фузы<span class="categories__item-count fuze-item">1</span></li>
+										<li class="categories__item active categories__item-title" data-id="compress">
+											Компрессоры<span class="categories__item-count compress-item">1</span>
+										</li>
+										<li class="categories__item active categories__item-title" data-id="module">
+											Модуляция и&#160;Дилеи<span class="categories__item-count module-item">1</span>
+										</li>
+										<li class="categories__item active categories__item-title" data-id="filter">
+											Фильтрация и&#160;EQ<span class="categories__item-count filter-item">1</span>
+										</li>
+										<li class="categories__item active categories__item-title" data-id="buster">
+											Бустеры<span class="categories__item-count buster-item">1</span>
+										</li>
+									</ul>
+								</div>
+
+								<div class="filter__categories">
+									<button class="filter__categories-btn">
+										<span class="filter__categories-title">Серия</span>
+									</button>
+
+									<ul class="categories__list list-02">
+										<li class="categories__item active categories__item-title" data-id="black">
+											Black series<span class="categories__item-count black-item">1</span>
+										</li>
+										<li class="categories__item active categories__item-title" data-id="gold">
+											Gold series<span class="categories__item-count gold-item">1</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="catalog__cards">
+							<div class="catalog__cards-grid">
+								<div class="catalog__card all overdrive black">
+									<a class="catalog__card-link" href="#!"></a>
+									<div class="catalog__card-img">
+										<picture>
+											<source srcset="./img/catalog-cards/01.webp 1x, ./img/catalog-cards/01@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/catalog-cards/01.png 1x, ./img/catalog-cards/01@2x.png 2x" type="image/png" />
+											<img src="./img/catalog-cards/01.png" alt="" />
+										</picture>
+									</div>
+									<p class="catalog__card-title">The Wings</p>
+									<p class="catalog__card-subtitle">Основан на: Dunlop Fuzz Face</p>
+									<p class="catalog__card-price">5500.00 ₽</p>
+									<p class="catalog__card-available">В&#160;наличии</p>
+								</div>
+
+								<div class="catalog__card all overdrive gold">
+									<a class="catalog__card-link" href="#!"></a>
+									<div class="catalog__card-img">
+										<picture>
+											<source srcset="./img/catalog-cards/02.webp 1x, ./img/catalog-cards/02@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/catalog-cards/02.png 1x, ./img/catalog-cards/02@2x.png 2x" type="image/png" />
+											<img src="./img/catalog-cards/02.png" alt="" />
+										</picture>
+									</div>
+									<p class="catalog__card-title">Big boss</p>
+									<p class="catalog__card-subtitle">Основан на: Big muff PI</p>
+									<p class="catalog__card-price">4900.00 ₽</p>
+									<p class="catalog__card-available">В&#160;наличии</p>
+								</div>
+
+								<div class="catalog__card all buster black">
+									<a class="catalog__card-link" href="#!"></a>
+									<div class="catalog__card-img">
+										<picture>
+											<source srcset="./img/catalog-cards/03.webp 1x, ./img/catalog-cards/03@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/catalog-cards/03.png 1x, ./img/catalog-cards/03@2x.png 2x" type="image/png" />
+											<img src="./img/catalog-cards/03.png" alt="" />
+										</picture>
+									</div>
+									<p class="catalog__card-title">Morning coffee</p>
+									<p class="catalog__card-subtitle">Основан на: Marshall Bluesbreaker</p>
+									<p class="catalog__card-price">8500.00 ₽</p>
+									<p class="catalog__card-available">В&#160;наличии</p>
+								</div>
+
+								<div class="catalog__card all fuze black">
+									<a class="catalog__card-link" href="#!"></a>
+									<div class="catalog__card-img">
+										<picture>
+											<source srcset="./img/catalog-cards/04.webp 1x, ./img/catalog-cards/04@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/catalog-cards/04.png 1x, ./img/catalog-cards/04@2x.png 2x" type="image/png" />
+											<img src="./img/catalog-cards/04.png" alt="" />
+										</picture>
+									</div>
+									<p class="catalog__card-title">Witch fire</p>
+									<p class="catalog__card-subtitle">Основан на: Vemuram jan ray</p>
+									<p class="catalog__card-price">11000.00 ₽</p>
+									<p class="catalog__card-unavailable">Нет в&#160;наличии</p>
+								</div>
+
+								<div class="catalog__card all distorshen black">
+									<a class="catalog__card-link" href="#!"></a>
+									<div class="catalog__card-img">
+										<picture>
+											<source srcset="./img/catalog-cards/05.webp 1x, ./img/catalog-cards/05@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/catalog-cards/05.png 1x, ./img/catalog-cards/05@2x.png 2x" type="image/png" />
+											<img src="./img/catalog-cards/05.png" alt="" />
+										</picture>
+									</div>
+									<p class="catalog__card-title">Polar sun</p>
+									<p class="catalog__card-subtitle">Основан на: Try vibe pedal</p>
+									<p class="catalog__card-price">33000.00 ₽</p>
+									<p class="catalog__card-available">В&#160;наличии</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<div class="footer__contacts">
+						<div class="footer__logo">
+							<svg class="icon icon--logo">
+								<use href="./img/svgsprite/sprite.symbol.svg#logo"></use>
+							</svg>
+							ElectroPuzzle
+						</div>
+						<div class="footer__form">
+							<form action="" method="post">
+								<p>
+									<input type="email" name="email" id="email" placeholder="john@example.com" required />
+									<button class="form__btn" type="submit">
+										<picture>
+											<source srcset="./img/right-arrow.webp 1x, ./img/right-arrow@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/right-arrow.png 1x, ./img/right-arrow@2x.png 2x" type="image/png" />
+											<img src="./img/right-arrow.png" alt="" />
+										</picture>
+									</button>
+								</p>
+							</form>
+						</div>
+					</div>
+
+					<div class="footer__columns">
+						<div class="footer__column">
+							<h3 class="footer__column-title">ПЕДАЛИ</h3>
+							<ul class="footer__column-list">
+								<li class="footer__column-item"><a href="#!">Дилеи</a></li>
+								<li class="footer__column-item"><a href="#!">Бустеры</a></li>
+								<li class="footer__column-item"><a href="#!">Овердрайвы</a></li>
+								<li class="footer__column-item"><a href="#!">Дисторшены</a></li>
+								<li class="footer__column-item"><a href="#!">Модуляция</a></li>
+								<li class="footer__column-item"><a href="#!">Фузы</a></li>
+								<li class="footer__column-item"><a href="#!">Компрессоры</a></li>
+							</ul>
+						</div>
+
+						<div class="footer__column">
+							<h3 class="footer__column-title">СТРАНИЦЫ</h3>
+							<ul class="footer__column-list">
+								<li class="footer__column-item"><a href="#!">Главная</a></li>
+								<li class="footer__column-item"><a href="#!">Педали</a></li>
+								<li class="footer__column-item"><a href="#!">Контакты</a></li>
+								<li class="footer__column-item"><a href="#!">Новости</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer__socials">
+						<h3 class="footer__column-title footer__socials-title">ПОДПИСЫВАЙСЯ</h3>
+						<div class="footer__socials-links">
+							<div class="footer__socials-link">
+								<a href="#!"
+									><picture>
+										<source srcset="./img/socials/vk.webp 1x, ./img/socials/vk@2x.webp 2x" type="image/webp" />
+										<source srcset="./img/socials/vk.png 1x, ./img/socials/vk@2x.png 2x" type="image/png" />
+										<img src="./img/socials/vk.png" alt="" /> </picture
+								></a>
+							</div>
+							<div class="footer__socials-link">
+								<a href="#!"
+									><picture>
+										<source srcset="./img/socials/youtube.webp 1x, ./img/socials/youtube@2x.webp 2x" type="image/webp" />
+										<source srcset="./img/socials/youtube.png 1x, ./img/socials/youtube@2x.png 2x" type="image/png" />
+										<img src="./img/socials/youtube.png" alt="" /> </picture
+								></a>
+							</div>
+							<div class="footer__socials-link">
+								<a href="#!"
+									><picture>
+										<source srcset="./img/socials/dzen.webp 1x, ./img/socials/dzen@2x.webp 2x" type="image/webp" />
+										<source srcset="./img/socials/dzen.png 1x, ./img/socials/dzen@2x.png 2x" type="image/png" />
+										<img src="./img/socials/dzen.png" alt="" /> </picture
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer__copyright">
+				&#169; 2023 ElectroPuzzle. Design by&#160;Kiselev Roman.
+			</div>
+		</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
