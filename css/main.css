@@ -888,7 +888,7 @@ html, body {
 /* Nav Icon */
 .mobile-nav-btn {
   --time: 0.1s;
-  background-image: url(./../../img/mobile-open.png);
+  background-image: url(./../img/mobile-open.png);
   width: 100%;
   height: 100%;
   background-position: center center;
