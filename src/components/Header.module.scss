@@ -1,0 +1,58 @@
+.wrapper {
+    position: sticky;
+    height: 80px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.86);
+
+    a {
+     display: flex;
+     gap: 15px;
+     align-items: center;
+     font-family: var(--font3);
+     font-weight: 700;
+     font-size: 20px;
+     color: #dadada;
+    }
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;       
+    
+    div {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+
+        a {
+            display: inline-block;
+            font-family: var(--font4);
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            transition: color .3s ease;
+
+            &:hover {
+                color: #72b453;
+            }
+        }
+    }
+}
+
+.basket {
+
+    svg {
+        width: 30px;
+        height: 30px;
+        fill: #fff;
+        transition: fill .3s ease;
+
+        &:hover {
+            fill: #72b453;
+        }
+    }
+}

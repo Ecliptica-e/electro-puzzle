@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "img": "./../../public/the_wings.png",
+        "title": "The Wings",
+        "subtitle": "Основан на: Dunlop Fuzz Face",
+        "price": "5500.00 ₽",
+        "availability": "В наличии",
+        "category": "overdrive",
+        "series": "black"
+    },
+    {
+        "id": 2,
+        "img": "./../../public/big_boss.png",
+        "title": "Big boss",
+        "subtitle": "Основан на: Big muff PI",
+        "price": "4900.00 ₽",
+        "availability": "В наличии",
+        "category": "distortion",
+        "series": "black"
+    },
+    {
+        "id": 3,
+        "img": "./../../public/morning_coffee.png",
+        "title": "Morning coffee",
+        "subtitle": "Основан на: Marshall Bluesbreaker",
+        "price": "8500.00 ₽",
+        "availability": "В наличии",
+        "category": "fuse",
+        "series": "black"
+    },
+    {
+        "id": 4,
+        "img": "./../../public/witch_fire.png",
+        "title": "Witch fire",
+        "subtitle": "Основан на: Vemuram jan ray",
+        "price": "11000.00 ₽",
+        "unavailability": "Нет в наличии",
+        "category": "compressor",
+        "series": "black"
+    },
+    {
+        "id": 5,
+        "img": "./../../public/polar_sun.png",
+        "title": "Polar sun",
+        "subtitle": "Основан на: Try vibe pedal",
+        "price": "33000.00 ₽",
+        "availability": "В наличии",
+        "category": "modulation",
+        "series": "black" 
+    }
+]

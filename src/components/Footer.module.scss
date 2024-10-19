@@ -1,0 +1,126 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 46px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding-bottom: 25px;
+
+        font-family: var(--font3);
+        font-weight: 700;
+        font-size: 20px;
+        color: #dadada;
+    }
+
+    form {
+        position: relative;
+    }
+
+    input {
+        width: 243px;
+        height: 39px;
+        background: #303030;
+        border: none;
+        padding-left: 22px;
+
+        &::placeholder {
+            font-family: var(--second-family);
+            font-weight: 200;
+            font-size: 15px;
+            text-decoration: underline;
+            color: #fff;
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 9px;
+        left: 230px;
+        width: 22px;
+        height: 21px;
+        background-image: url(right-arrow.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+
+    h4 {
+        margin-top: 15px;
+        margin-bottom: 3px;
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        color: #fff;
+    }
+
+    a {
+        transition: color .3s ease;
+
+        &:hover {
+            color: #72b453;
+        }
+    }
+}
+
+.socials {
+    div {
+
+        display: flex;
+        gap: 19px;
+    }
+
+    h4 {
+        margin-top: 15px;
+        margin-bottom: 19px;
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        color: #fff;
+    }
+}
+
+.vk {
+    width: 49px;
+    height: 49px;
+    background-image: url(vk.png);
+}
+
+.youtube {
+    width: 49px;
+    height: 49px;
+    background-image: url(youtube.png);
+}
+
+.dzen {
+    width: 45px;
+    height: 45px;
+    background-image: url(dzen.png);
+}

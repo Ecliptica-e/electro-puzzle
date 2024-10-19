@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    z-index: 9;
+}
+
+.info {
+    z-index: 5;
+}
+
+
+.footer {
+    margin-top: auto;
+    height: 388px;
+}

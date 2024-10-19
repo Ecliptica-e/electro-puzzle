@@ -1,0 +1,31 @@
+.wrapper {
+    width: 100vw;
+    height: 528px;
+    background-image: url(products-info.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+
+    h2 {
+        margin: 0;
+        padding-top: 280px;
+        font-family: var(--font3);
+        font-weight: 800;
+        font-size: 48px;
+        color: #dadada;
+    }
+
+    p {
+        margin: 0;
+        max-width: 567px;
+        font-family: var(--second-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 175%;
+        color: #fff;
+    }
+}
